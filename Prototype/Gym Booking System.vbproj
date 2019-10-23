@@ -150,8 +150,19 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Prototype.BookingsMember.resources" />
+    <EmbeddedResource Include="obj\Debug\Prototype.ForgotID.resources" />
+    <EmbeddedResource Include="obj\Debug\Prototype.intructorBookings.resources" />
+    <EmbeddedResource Include="obj\Debug\Prototype.LoginForm.resources" />
+    <EmbeddedResource Include="obj\Debug\Prototype.MainMenuMember.resources" />
+    <EmbeddedResource Include="obj\Debug\Prototype.Members.resources" />
+    <EmbeddedResource Include="obj\Debug\Prototype.Resources.resources" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\1" />
+    <None Include="bin\Debug\Prototype.exe.config" />
+    <None Include="bin\Debug\Prototype.vshost.exe.config" />
+    <None Include="bin\Debug\Prototype.vshost.exe.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -164,6 +175,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="obj\Debug\CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Gym Booking System.vbprojAssemblyReference.cache" />
+    <None Include="obj\Debug\Prototype.vbproj.GenerateResource.cache" />
+    <None Include="obj\Debug\Prototype.vbprojAssemblyReference.cache" />
+    <None Include="obj\Debug\Prototype.vbprojResolveAssemblyReference.cache" />
     <None Include="Resources\pure-gym.png" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +198,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Instructor_Details.txt" />
+    <Content Include="bin\Debug\Member_Bookings.txt" />
+    <Content Include="bin\Debug\Member_Details.txt" />
+    <Content Include="bin\Debug\Member_ID.txt" />
+    <Content Include="bin\Debug\Prototype.exe" />
+    <Content Include="bin\Debug\Prototype.pdb" />
+    <Content Include="bin\Debug\Prototype.vshost.exe" />
+    <Content Include="bin\Debug\Prototype.xml" />
+    <Content Include="obj\Debug\Prototype.exe" />
+    <Content Include="obj\Debug\Prototype.pdb" />
+    <Content Include="obj\Debug\Prototype.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Prototype.xml" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
